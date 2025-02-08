@@ -12,7 +12,9 @@ namespace Adodotnet.ConsoleApp
         {
             ADODotNet ado = new ADODotNet();
             //ado.Read();
-            ado.Create();
+            //ado.Create();
+            //ado.Update();
+            ado.Delete(2);
         }
     }
 }
