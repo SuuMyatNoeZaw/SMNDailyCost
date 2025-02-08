@@ -14,7 +14,11 @@ namespace Adodotnet.ConsoleApp
             //ado.Read();
             //ado.Create();
             //ado.Update();
-            ado.Delete(2);
+            //ado.Delete(2);
+            Dapper dapper = new Dapper();
+            // dapper.Read();
+            //dapper.GetByID(3);
+            dapper.Create("Beans", 30, 1000, 1000);
         }
     }
 }
